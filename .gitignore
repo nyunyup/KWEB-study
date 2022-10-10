@@ -1,2 +1,4 @@
 *.txt
+*.json
 .vs/
+node_modules/
