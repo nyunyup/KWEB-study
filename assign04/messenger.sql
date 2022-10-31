@@ -51,10 +51,3 @@ CREATE TABLE `follows` (
     FOREIGN KEY (`follower`) REFERENCES `users`(`uid`) ON DELETE CASCADE,
     FOREIGN KEY (`followee`) REFERENCES `users`(`uid`) ON DELETE CASCADE
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
-
-
-
-
-
